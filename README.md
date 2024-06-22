@@ -5,7 +5,8 @@
 1. Clone the repository
 
 ```sh
-git clone https://github.com/levihsu/OOTDiffusion
+git clone  https://github.com/2100080198gadugoluroshitha/moon.git
+
 ```
 
 2. Create a conda environment and install the required packages
