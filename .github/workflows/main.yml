@@ -16,5 +16,5 @@ jobs:
             fetch-depth: 0
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.token}}
-        run: git push --force https://roshithag:$TOKEN@huggingface.co/spaces/roshithag/amazon main
+          HF_TOKEN: ${{ secrets.TOKEN}}
+        run: git push --force https://roshithag:$HF_TOKEN@huggingface.co/spaces/roshithag/amazon main
